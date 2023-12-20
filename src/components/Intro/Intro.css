@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../Image/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px){.column{
+    padding: 40px;
+    border-top: none;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+  
+  .column-left {
+  color: wheat;
+  }
+  .i-button {
+    border-radius: 34rem;
+    display: flex;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(to right, #ffa500 0%, #f06292 100%);
+    box-shadow: #ffa500;
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #ccc900;
+    }
+  }
+  .column-left p{
+    color: white;
+  }
+  .column-right {
+    background-color: url('../../Image/Backgroundimage.jpg');
+    color: white;
+  }
+  .i-contactinfo > p {
+    color: white;
+  }
+  .i-contactinfo p:nth-child(1) {
+    color: white;
+  }
+  .column-right img {
+    width: 300px;
+    height: 50%;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 2em;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 100;
+  }
+  
+  img {
+    margin: 10px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Github {
+    fill: #181717; /* Github logo color */
+    border-radius: 50%;
+  }
+  
+  .Linkedin {
+    fill: #0077b5; /* Linkedin logo color */
+    border-radius: 50%;
+  }
+  
+  .HabtamuImage {
+    /* additional styling for profile image */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .Github:hover,
+  .Linkedin:hover {
+    opacity: 0.7;
+    background-color: #f1f1f1;
+  }
+  
+  
