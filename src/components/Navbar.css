@@ -1,61 +1,48 @@
-.n-wrapper{
+.n-wrapper {
     height: 20vh;
     display: flex;
-    background-image: url('../Image/Background.jpg');
+    background-image: url('../Image/background.png');
     justify-content: space-between;
-}
-.n-left{
+  }
+  
+  .n-left {
     flex: 1;
     align-items: center;
     display: flex;
-    gap: 2rem;
-    color: white;
-}
-.n-name{
-    font-size: 1.3rem;
-    font-weight: normal;
-}
-.n-right{
+    gap: 3rem;
+    color: black;
+    font-size: larger;
+  }
+  
+  .n-name {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 6rem;
+    
+  }
+  
+  .n-right {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    margin-right: 6rem;
-}
-.n-list{
-    flex: 10;
-}
-.n-list ul{
+    margin-right: 2rem;
+  }
+  
+  .n-list ul {
     display: flex;
-    gap: 2rem;
-    margin-right: 4rem;
-}
-.n-list ul:hover{
+    font-family: 'Times New Roman', Times, serif;
+    gap: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .n-list ul:hover {
     cursor: pointer;
-    color: var(--orange)
-}
-.no-list-style{
+    color: white;
+  }
+  
+  .no-list-style {
     list-style-type: none;
-    color: white;
-}
-.button{
-    border-radius: 34rem;
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-    background: linear-gradient(to right, #ffa500 0%, #f06292 100%);
-    box-shadow: #ffa500;
-}
-.button:hover{
-    background: white;
-    cursor: pointer;
-    color: var(--orange);
-    border: 1px solid var(--orange);
-}
-.i-con{
-    font-size: smaller;
-    display: flex;
-
-}
+    color: black;
+    font-size: larger;
+  }

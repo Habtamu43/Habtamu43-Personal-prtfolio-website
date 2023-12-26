@@ -1,0 +1,12 @@
+/* global.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Image/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #fff; /* Set the desired border color and width */
+    box-sizing: border-box; /* Include padding and border in total width/height */
+  }
+  

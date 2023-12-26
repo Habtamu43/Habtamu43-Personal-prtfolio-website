@@ -1,16 +1,16 @@
 import React from 'react';
-import FloatingDiv from './components/FloatingDiv/floatingdiv';
-import './App.css'
+import FloatingDiv from './components/Resume/Resume';
+import './App.css';
 import Intro from './components/Intro/intro';
 import Navbar from './components/Navbar';
-function APP()
-{
+
+function APP() {
   return (
     <div className="APP">
-      <Navbar/>
-      <FloatingDiv/>
-      <Intro/>
+      <Navbar />
+      <Intro />
     </div>
-  )
+  );
 }
-export default APP
+
+export default APP;
